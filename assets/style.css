@@ -53,9 +53,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body {
 
-}
 section {
 	margin-block: 6em;
 }
@@ -125,6 +123,7 @@ header {
 /* Gestion des fleches du carrousel */
 #banner .arrow {
 	position: absolute;
+    cursor: pointer;
 }
 #banner .arrow_left {
 	left: 10px;
@@ -137,6 +136,7 @@ header {
 	position: absolute;
 	bottom: 40px;
 	display: flex;
+	cursor: pointer;
 }
 .dot {
 	margin-inline: 5px;
